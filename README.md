@@ -64,13 +64,24 @@ user/
 
 ---
 
-## ⚙️ Getting Started
+## 🛠️ Getting Started
 
-1. **Clone** this repo to your local machine
-2. If you're using PHP packages, run `composer install` (required for PDF export)
-3. Set up your **local web server** (Apache, XAMPP, etc.)
-4. Open `config.php` and update your DB and app settings
-5. Run the app in your browser — and you're good to go!
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/kbimsara/Notesketch.git
+   ```
+
+2. **Set up the database:**
+   - Import the SQL file from `Database/notesketch.sql` into your MySQL server.
+
+3. **Configure the application:**
+   - Update database settings in `/config.php`.
+
+4. **Run the application:**
+   - Host the project on a PHP server (e.g., XAMPP, Apache).
+   - Access the main page via `/index.php`.
+
+---
 
 ## 📝 New Features Guide
 
@@ -107,14 +118,7 @@ CKEditor 5 is under [GNU GPL v2 or later](https://ckeditor.com/legal/ckeditor-os
 - CKEditor 5 (Rich text editing)
 - TCPDF/DOMPDF (PDF export functionality)
 - PHP 7.4 or higher
-- MySQL/MariaDB
-
----
-
-## 📜 License
-
-- App source: *[Add your license here]*
-- CKEditor 5: [GNU GPL v2 or later](user/ckeditor5-build-classic/LICENSE.md)
+- MySQL
 
 ---
 
@@ -123,6 +127,12 @@ CKEditor 5 is under [GNU GPL v2 or later](https://ckeditor.com/legal/ckeditor-os
 - [CKEditor 5](https://ckeditor.com/ckeditor-5) by CKSource
 - PDF generation libraries
 - And other open-source tools used in this project
+
+---
+
+## 🎨 UI Design Credit
+
+UI Design credit goes to [@kavishannip](https://github.com/kavishannip)
 
 ---
 
