@@ -1,0 +1,70 @@
+/* font import
+@font-face {
+    font-family: Thin-trial;
+    src: url(./font/cocogoose/Cocogoose\ Pro\ Thin-trial.ttf);
+}
+
+@font-face {
+    font-family: Letterpress-R;
+    src: url(./font/Cocogoose-Pro-Letterpress-Regular-trial.ttf);
+}
+@font-face {
+    font-family: Ultralight-Italic;
+    src: url(./font/Cocogoose-Pro-Ultralight-Italic-trial.ttf);
+}
+@font-face {
+    font-family: Light-Italic;
+    src: url(./font/Cocogoose-Pro-Light-Italic-trial.ttf);
+}
+
+@font-face {
+    font-family: bolt-trial;
+    src: url(./font/cocogoose//Cocogoose\ Pro\ Semilight-trial.ttf);
+}
+
+.f-c-thin {
+    font-family: Thin-trial;
+}
+.Ultralight-Italic {
+    font-family: Ultralight-Italic;
+}
+
+.Light-Italic {
+    font-family: Light-Italic;
+}
+
+.Letterpress-R {
+    font-family: Letterpress-R;
+}
+
+
+.f-c-bolt {
+    font-family: bolt-trial;
+}
+
+svg {
+    margin-top: 30px;
+    margin-bottom: 20px;
+} */
+
+/* scroll effect */
+html {
+    scroll-behavior: smooth
+}
+
+a {
+    text-decoration: none;
+}
+
+.cst-btn {
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+/* glowing background */
+.cst-bg {
+    box-shadow: 10px 20px 100px 20px #EFAD03;
+}
+/* div{
+    border: 1px yellow solid;
+} */
